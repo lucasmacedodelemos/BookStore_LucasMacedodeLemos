@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD4512222481A9DC00508B44"
-               BuildableName = "BookStore.app"
-               BlueprintName = "BookStore"
+               BlueprintIdentifier = "BD83D4AF2482A6D400A2C15B"
+               BuildableName = "Model.framework"
+               BlueprintName = "Model"
                ReferencedContainer = "container:BookStore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,39 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD45123A2481A9DE00508B44"
-               BuildableName = "BookStoreTests.xctest"
-               BlueprintName = "BookStoreTests"
-               ReferencedContainer = "container:BookStore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD83D4932482A21E00A2C15B"
-               BuildableName = "BusinessTests.xctest"
-               BlueprintName = "BusinessTests"
-               ReferencedContainer = "container:BookStore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD83D4B72482A6D400A2C15B"
                BuildableName = "ModelTests.xctest"
                BlueprintName = "ModelTests"
-               ReferencedContainer = "container:BookStore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD83D4EE2482BC2700A2C15B"
-               BuildableName = "ManagerTests.xctest"
-               BlueprintName = "ManagerTests"
                ReferencedContainer = "container:BookStore.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -80,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BD4512222481A9DC00508B44"
-            BuildableName = "BookStore.app"
-            BlueprintName = "BookStore"
-            ReferencedContainer = "container:BookStore.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -97,16 +57,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BD4512222481A9DC00508B44"
-            BuildableName = "BookStore.app"
-            BlueprintName = "BookStore"
+            BlueprintIdentifier = "BD83D4AF2482A6D400A2C15B"
+            BuildableName = "Model.framework"
+            BlueprintName = "Model"
             ReferencedContainer = "container:BookStore.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

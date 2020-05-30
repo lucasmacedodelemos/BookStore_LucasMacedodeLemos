@@ -10,6 +10,11 @@ import Foundation
 
 public struct BooksResponse: Codable {
     
+    public init(totalItems: Int, items: [Book]?) {
+        self.totalItems = totalItems
+        self.items = items
+    }
+    
     public let totalItems: Int
     public let items: [Book]?
 }
