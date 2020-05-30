@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD0A83852482DA27001A3785 /* BookBusinessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A83842482DA27001A3785 /* BookBusinessMock.swift */; };
+		BD0A83872482E2D7001A3785 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0A83862482E2D7001A3785 /* ModelTests.swift */; };
 		BD4512272481A9DC00508B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4512262481A9DC00508B44 /* AppDelegate.swift */; };
 		BD45122B2481A9DC00508B44 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45122A2481A9DC00508B44 /* FirstViewController.swift */; };
 		BD45122D2481A9DC00508B44 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45122C2481A9DC00508B44 /* SecondViewController.swift */; };
@@ -170,6 +171,7 @@
 
 /* Begin PBXFileReference section */
 		BD0A83842482DA27001A3785 /* BookBusinessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookBusinessMock.swift; sourceTree = "<group>"; };
+		BD0A83862482E2D7001A3785 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 		BD4512232481A9DC00508B44 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4512262481A9DC00508B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD45122A2481A9DC00508B44 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				BD83D4C12482A6D400A2C15B /* Info.plist */,
+				BD0A83862482E2D7001A3785 /* ModelTests.swift */,
 			);
 			path = ModelTests;
 			sourceTree = "<group>";
@@ -735,6 +738,7 @@
 					};
 					BD83D4B72482A6D400A2C15B = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 						TestTargetID = BD4512222481A9DC00508B44;
 					};
 					BD83D4E62482BC2700A2C15B = {
@@ -912,6 +916,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0A83872482E2D7001A3785 /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,6 +1407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ModelTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -1412,6 +1418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.lucasmacedodelemos.ModelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookStore.app/BookStore";
@@ -1422,6 +1429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ModelTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
