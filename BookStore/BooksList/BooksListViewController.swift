@@ -69,17 +69,18 @@ extension BooksListViewController: UICollectionViewDelegate, UICollectionViewDat
         return CGSize(width: cellWidth, height: cellHeight)
     }
     
-    func collectionView(_ collectionView: UICollectionView, didHighlightItemAt indexPath: IndexPath) {
-        
-        UIView.animate(withDuration: 0.3, delay: 0, options: UIViewAnimationOptions.curveEaseIn, animations: {
+    func collectionView(_ collectionView: UICollectionView, shouldHighlightItemAt indexPath: IndexPath) -> Bool {
+        UIView.animate(withDuration: 0.2, delay: 0, options: UIViewAnimationOptions.curveEaseIn, animations: {
             if let cell = collectionView.cellForItem(at: indexPath) as? BookCollectionViewCell {
-                cell.transform = .init(scaleX: 0.95, y: 0.95)
+                cell.transform = .init(scaleX: 0.9, y: 0.9)
             }
         }, completion: nil)
+        
+        return true
     }
 
     func collectionView(_ collectionView: UICollectionView, didUnhighlightItemAt indexPath: IndexPath) {
-        UIView.animate(withDuration: 0.3, delay: 0.2, options: UIViewAnimationOptions.curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.2, delay: 0.2, options: UIViewAnimationOptions.curveEaseOut, animations: {
             if let cell = collectionView.cellForItem(at: indexPath) as? BookCollectionViewCell {
                 cell.transform = .identity
                 cell.contentView.backgroundColor = .clear
