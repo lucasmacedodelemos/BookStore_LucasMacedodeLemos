@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class BookProvider {
+open class BookProvider {
     
     var request: RequestProtocol
     let baseURL = "https://www.googleapis.com/books"
@@ -17,7 +17,7 @@ public class BookProvider {
         self.request = request
     }
     
-    public func fetchBooks(parameters: [String: String]?, completionHandler: @escaping (Data?, Error?) -> Void) {
+    open func fetchBooks(parameters: [String: String]?, completionHandler: @escaping (Data?, Error?) -> Void) {
                 
         let url = "\(baseURL)/v1/volumes"
         
