@@ -11,4 +11,8 @@ import Foundation
 public struct ImageLinks: Codable {
     
     public let thumbnail: String
+    
+    public init(thumbnail: String) {
+        self.thumbnail = thumbnail
+    }
 }

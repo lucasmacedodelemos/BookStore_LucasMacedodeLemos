@@ -14,6 +14,11 @@ public struct Book: Codable {
     public let volumeInfo: VolumeInfo
     public let saleInfo: SaleInfo
     
+    public init(bookId: String, volumeInfo: VolumeInfo, saleInfo: SaleInfo) {
+        self.bookId = bookId
+        self.volumeInfo = volumeInfo
+        self.saleInfo = saleInfo
+    }
     
     enum CodingKeys: String, CodingKey {
         case bookId = "id"

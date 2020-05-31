@@ -16,11 +16,17 @@ class FavoriteBookProviderTests: XCTestCase {
         var response: Data?
         let favoriteBookProvider = FavoriteBookProvider()
         let data = Data()
+        let key = "teste"
         
-        favoriteBookProvider.add(data, withKey: "teste")
+        favoriteBookProvider.add(data, withKey: key)
         
-        response = favoriteBookProvider.recover(withKey: "teste")
+        response = favoriteBookProvider.recover(withKey: key)
         XCTAssertNotNil(response)
+
+        favoriteBookProvider.remove(withKey: key)
+    
+        response = favoriteBookProvider.recover(withKey: key)
+        XCTAssertNil(response)
     }
     
     func testRecoverAll() {
@@ -29,12 +35,22 @@ class FavoriteBookProviderTests: XCTestCase {
         
         let favoriteBookProvider = FavoriteBookProvider()
         let data = Data()
+        let key = "teste"
+        let key1 = "teste1"
+
         
-        favoriteBookProvider.add(data, withKey: "teste")
-        favoriteBookProvider.add(data, withKey: "teste1")
+        favoriteBookProvider.add(data, withKey: key)
+        favoriteBookProvider.add(data, withKey: key1)
         
         response = favoriteBookProvider.recoverAll()
         
         XCTAssertTrue(response!.count > 1)
+        
+        favoriteBookProvider.remove(withKey: key)
+        favoriteBookProvider.remove(withKey: key1)
+        
+        response = favoriteBookProvider.recoverAll()
+        
+        XCTAssertTrue(response?.count == 0)
     }
 }

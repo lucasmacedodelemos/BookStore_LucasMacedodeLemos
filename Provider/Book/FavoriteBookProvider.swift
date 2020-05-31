@@ -12,10 +12,21 @@ public class FavoriteBookProvider {
     
     let dictionaryKey = "books"
         
+    public init() {}
+    
     public func add(_ data: Data, withKey key: String) {
         var dictionary: [String : Data] = recoverDictionary() ?? [:]
         dictionary[key] = data
         
+        save(dictionary: dictionary)
+    }
+    
+    public func remove(withKey key: String) {
+        guard var dictionary = recoverAll() else {
+            return
+        }
+        
+        dictionary.removeValue(forKey: key)
         save(dictionary: dictionary)
     }
     

@@ -11,4 +11,8 @@ import Foundation
 public struct SaleInfo: Codable {
     
     public let buyLink: String?
+    
+    public init(buyLink: String?) {
+        self.buyLink = buyLink
+    }
 }
