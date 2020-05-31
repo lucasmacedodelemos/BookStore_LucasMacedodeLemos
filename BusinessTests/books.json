@@ -1,0 +1,1817 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 352,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "x6qjAwAAQBAJ",
+      "etag": "6LtV5u2IPbQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/x6qjAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Aprendendo Programação iOS",
+        "subtitle": "Do Xcode à App Store",
+        "authors": [
+          "Alasdair Allan"
+        ],
+        "publisher": "Novatec Editora",
+        "publishedDate": "2013-07-01",
+        "description": "Tenha acesso a uma rápida introdução à programação para iPhone, iPad e iPod touch. Com este guia fácil de acompanhar, você aprenderá a desenvolver seu primeiro aplicativo iOS comercializável, da abertura do Xcode ao envio de seu produto para a App Store. Quer você seja um desenvolvedor iniciante em programação para Mac ou um desenvolvedor experiente no Mac, pronto para trabalhar com o iOS, este é o seu livro. Você aprenderá na prática a utilizar a Objective-C e seus principais frameworks, escrevendo vários aplicativos iOS de exemplo, dando a você as habilidades básicas para a construção de seus próprios aplicativos de forma independente. Recheado de exemplos de código, este livro foi reformulado e atualizado para o iOS 6 e o Xcode 4. - Descubra as vantagens da construção de aplicativos iOS nativos. - Dê seus primeiros passos com a Objective-C e os frameworks Cocoa Touch. - Aprofunde-se nas classes de visão de tabela para construção de interfaces de usuário. - Manipule a entrada de dados, processe documentos XML e JSON e armazene dados no SQLite. - Utilize sensores iOS, incluindo o acelerômetro, o magnetômetro, a câmera e o GPS. - Construa aplicativos que utilizam os frameworks Core Location e MapKit. - Integre o serviço iCloud da Apple em seus aplicativos. - Percorra o processo de distribuição de seu aplicativo na App Store. \"O livro Aprendendo programação iOS aborda tudo que um programador iOS aspirante necessita saber para dar seus primeiros passos nessa plataforma. Um livro completo e de leitura muito agradável. Recomendado!\" — Fraser Speirs, Diretor da Connected Flow, Ltd. e criador do FlickrExport",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788575223635"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8575223631"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 448,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=x6qjAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=x6qjAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=x6qjAwAAQBAJ&pg=PA25&dq=ios&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=x6qjAwAAQBAJ&dq=ios&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Aprendendo_Programa%C3%A7%C3%A3o_iOS.html?hl=&id=x6qjAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=x6qjAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "No entanto, se isso acontecer com você, o passo final do registro como um <br>\ndesenvolver <b>iOS</b> será verificar seu endereço de email. Ainda que esse email <br>\nseja, na maioria dos casos, enviado de forma razoavelmente rápida (dentro de <br>\numa ou&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4IG_CwAAQBAJ",
+      "etag": "PBuXL17Ylm0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4IG_CwAAQBAJ",
+      "volumeInfo": {
+        "title": "Guia Android vs IOS",
+        "subtitle": "",
+        "authors": [
+          "On Line Editora"
+        ],
+        "publisher": "On Line Editora",
+        "publishedDate": "2016-03-16",
+        "description": "Os usuários que adquirem produtos por motivos estritamente relacionados às suas necessidades de uso e não têm problema algum em migrar para esta ou aquela plataforma, desde que tal mudança satisfaça seus interesses. Há também aqueles que relutam em trocar de sistema por razões práticas, por exemplo, para evitar a dor de cabeça de ter de transferirtodas as suas informações e instalar/substituir novos apps. Por último há os chamados fanboys*, que consideram o aparelho/sistema que utilizam como sendo melhor do que os outros, e não mudam de opinião tão facilmente – estes, mais do que usuários, são seguidores. Este guia não é um comparativo do tipo \"este ganha\" e \"aquele perde\". Nosso objetivo é ressaltar as semelhanças e diferenças entre as plataformas, para que o usuário entenda melhor o sistema utilizado e conheça também aquele com o qual ele ainda não teve contato. Assim, poderá, se considerar importante, fazer a migração – nesse caso, dedicaremos uma seção que explica passo a passo, com fotos ilustrativas, como fazer a mudança (de Android para iOS, e vice-versa), sem traumas ou perda de arquivos e informações durante o processo. Vamos analisar como cada sistema lida com os principais recursos e apps nativos, e explicaremos como cada um trata a questão da segurança e privacidade, bem como eles gerenciam as atualizações, a instalação de programas, entre outros. Para este trabalho, adotamos a versão Android Lollipop (5.1.1) instalada em um Galaxy S6 Edge+ e a versão iOS 9 instalada em um iPhone. Vale lembrar que essas versões são praticamente as mesmas em tablets. É importante lembrar que o comparativo a seguir não é de aparelhos, mas de sistema, pois o Android pode ser encontrado em diferentes dispositivos (smarphones e tablets) de variados fabricantes e, do mesmo modo, o iOS 9 integra desde o iPhone 4S até os modelos mais recentes, como o iPhone 6 e suas variações (6S, 6 Plus e 6S Plus) e iPads (exceto o iPad 1). Isso significa que o foco desse trabalho é a construção, os recursos e a usabilidade dos dois sistemas.",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 116,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4IG_CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4IG_CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=4IG_CwAAQBAJ&pg=PA7&dq=ios&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=4IG_CwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4IG_CwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=4IG_CwAAQBAJ&rdid=book-4IG_CwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4IG_CwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Nome original: iPhone OS Desenvolvedor: Apple Dispositivos: iPhone, iPad, <br>\niPod touch, Apple Watch e AppleTV Loja de apps: mais de 1,5 milhão de apps <br>\nVersão mais recente: <b>iOS</b> 9.2 sistema <b>iOS</b> nasceu com o primeiro iPhone da <br>\nApple,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mmx3CgAAQBAJ",
+      "etag": "i6jSNoEN1zY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mmx3CgAAQBAJ",
+      "volumeInfo": {
+        "title": "Delphi para Android e iOS",
+        "subtitle": "Desenvolvendo aplicativos móveis",
+        "authors": [
+          "William Duarte"
+        ],
+        "publisher": "Brasport",
+        "publishedDate": "2015-09-01",
+        "description": "Inovar, empreender, criar e sonhar! Em um mundo cada vez mais conectado, inovar é sinônimo de criatividade e inteligência. Eletrônicos como celulares e dispositivos “vestíveis” já fazem parte do nosso dia a dia. Pensando nisso, nada melhor que colocar aquela sua ideia em prática: empreender criando aplicativos de sucesso. Com este livro será possível aprender como desenvolver aplicativos para dispositivos móveis, sejam celulares, tablets, relógios, óculos, etc. Inclui tópicos sobre Firemonkey, layouts responsivos, sensores, bancos de dados embarcado SQLite, câmera fotográfica, geolocalização (GPS), monetização, notificações e muito mais. Utilizando o Delphi, seus aplicativos serão desenvolvidos de forma amigável, simples e rápida. Ganhe dinheiro juntando criatividade, inovação e DELPHI! Prefácios de Marco Cantù e Claudio Nasajon",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788574527482"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8574527483"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 216,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mmx3CgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mmx3CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=mmx3CgAAQBAJ&pg=PA6&dq=ios&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=mmx3CgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mmx3CgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 29,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 29,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=mmx3CgAAQBAJ&rdid=book-mmx3CgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 29000000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 29000000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Delphi_para_Android_e_iOS-sample-epub.acsm?id=mmx3CgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Delphi_para_Android_e_iOS-sample-pdf.acsm?id=mmx3CgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mmx3CgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Para configurar seu ambiente de desenvolvimento a fim de desenvolver seus <br>\naplicativos suportando o <b>iOS</b>, é necessário ter uma instalação do sistema <br>\noperacional Mac OS X em seu computador, conforme descrito nos requisitos. O <br>\nprimeiro&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "bi6roOTgYK8C",
+      "etag": "ZWkFW2R+Y2k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bi6roOTgYK8C",
+      "volumeInfo": {
+        "title": "Cisco IOS in a Nutshell",
+        "subtitle": "A Desktop Quick Reference for IOS on IP Networks",
+        "authors": [
+          "James Boney"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2002",
+        "description": "A guide to router configuration and the IOS operating system explores the Cisco user interface, configuring lines, access lists, routing protocols, dial-on-demand routing, and security issues.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "156592942X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781565929425"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 592,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bi6roOTgYK8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bi6roOTgYK8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=bi6roOTgYK8C&pg=PA1&dq=ios&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=bi6roOTgYK8C&dq=ios&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cisco_IOS_in_a_Nutshell.html?hl=&id=bi6roOTgYK8C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=bi6roOTgYK8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A Desktop Quick Reference for <b>IOS</b> on IP Networks James Boney. CHAPTER 1 <br>\nGetting Started Introduction The modern world is networked in a way that could <br>\nbarely be imagined a few decades ago. Today, the Internet reaches into virtually<br>\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "C4EQySE9iL4C",
+      "etag": "lHk3rDjCOl8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/C4EQySE9iL4C",
+      "volumeInfo": {
+        "title": "Programming IOS 4",
+        "subtitle": "Fundamentals of IPhone, IPad, and IPod Touch Development",
+        "authors": [
+          "Matt Neuburg"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2011-05-23",
+        "description": "Provides information on using iOS 4 to create applications for the iPhone, iPad, and iPod Touch.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781449388430"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1449388434"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 808,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=C4EQySE9iL4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=C4EQySE9iL4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=C4EQySE9iL4C&pg=PA727&dq=ios&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=C4EQySE9iL4C&dq=ios&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Programming_IOS_4.html?hl=&id=C4EQySE9iL4C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=C4EQySE9iL4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It also discusses sharing files with the user through iTunes and with other apps <br>\nand concludes with a survey of how <b>iOS</b> can work with some common file formats <br>\n(XML, SQLite, and image files). • Chapter 37 introduces networking, with an&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a09NMFdA6m0C",
+      "etag": "YU6wq0wJ5aI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a09NMFdA6m0C",
+      "volumeInfo": {
+        "title": "Learning the iOS 4 SDK for JavaScript Programmers",
+        "subtitle": "Create Native Apps with Objective-C and Xcode",
+        "authors": [
+          "Danny Goodman"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2010-12-02",
+        "description": "Is it possible for JavaScript programmers to learn Apple's iOS 4 SDK and live to tell the tale? Technology guru Danny Goodman did, and with this book he leaves a well-marked trail for you to follow. An authority on JavaScript since its inception, Goodman understands the challenges you might face in creating native iOS apps with this SDK, and introduces Xcode, Objective-C, and Cocoa Touch in a context you'll readily understand. Why bother with the SDK when you can simply build web apps for Apple's iOS devices? Web apps can't access an iPhone's music library, camera, or iOS system software for maps, audio, and more. Nor can you sell web apps in the App Store. If you want to take full advantage of the iPhone and iPad, iOS 4 SDK is your tool -- and this is your book. Includes full coverage of iOS SDK 4.2. Learn the distinction between web app and iOS native app programming Create a workbench app to test code snippets throughout the learning process Get a structural view of an iOS app, and compare the process of building objects in Objective-C versus JavaScipt Discover how your code launches iOS apps and makes them user-ready Learn about iOS memory management details that are different from JavaScript, including pointers and data types Use Objective-C and Cocoa Touch to implement common JavaScript tasks",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1449302807"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781449302801"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.8.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=a09NMFdA6m0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=a09NMFdA6m0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=a09NMFdA6m0C&pg=PA83&dq=ios&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=a09NMFdA6m0C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a09NMFdA6m0C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 67.99,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 67.99,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=a09NMFdA6m0C&rdid=book-a09NMFdA6m0C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 67990000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 67990000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=a09NMFdA6m0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Whatever your page entails, a highly predictable sequence of events occurs <br>\nduring the loading stage. When it comes to a compiled <b>iOS</b> app, however, source <br>\ncode order becomes less important. Dependencies are less about the precise <br>\norder&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ymJIyHcVbfsC",
+      "etag": "QLqTMCiHI+w",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ymJIyHcVbfsC",
+      "volumeInfo": {
+        "title": "Core Data for iOS",
+        "subtitle": "Developing Data-Driven Applications for the iPad, iPhone, and iPod touch",
+        "authors": [
+          "Tim Isted",
+          "Tom Harrington"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2011-05-24",
+        "description": "Today, virtually every non-trivial iPhone and iPad app must manage data—quickly, smoothly, reliably, and with minimal impact on the CPU to conserve battery life. Core Data, Apple’s ready-made data persistence layer, can help you achieve all these goals. In Core Data for iOS, two leading iOS developers teach you the entire Core Data framework from the ground up. Writing for intermediate-to-advanced iOS developers, Tim Isted and Tom Harrington thoroughly explain how Core Data is used on iOS devices, introduce each of its primary classes, and show how they interact to provide amazing functionality with minimal configuration. You’ll learn how to store, fetch, and validate data; provide it efficiently to views; and much more. Isted and Harrington first give you a firm grounding in the technology, and then present real-world examples. They present multiple sample projects, as well as a start-to-finish, chapter-length case study. Coverage includes • Understanding Core Data’s features, classes, and interactions • Using Core Data in MVC-based iOS app development • Mapping relational data to object models, and building them with Xcode 4’s Data Modeler • Working with managed objects and using UITableView to display them • Creating predicates to match numbers, data, and objects • Maintaining compatibility across versions of an app’s data model • Tracking managed object contexts across view controllers • Using Core Data’s automatic Undo functionality • Integrating abstract entities, entity inheritance, and multiple view controllers into a complete app • Optimizing for iOS devices’ tight memory limits • Diagnosing and fixing common Core Data problems Introducing Addison-Wesley’s new Core Frameworks Series, written for experienced iOS developers by world-class Mac and iOS developers, these are the first comprehensive, code-rich reference guides to Apple’s Core Frameworks.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0321670663"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780321670663"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.9.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ymJIyHcVbfsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ymJIyHcVbfsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=ymJIyHcVbfsC&pg=PT36&dq=ios&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ymJIyHcVbfsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ymJIyHcVbfsC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 79.96,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 79.96,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ymJIyHcVbfsC&rdid=book-ymJIyHcVbfsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 79960000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 79960000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ymJIyHcVbfsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "<b>iOS</b>? The Core Data framework provides a tried and tested, very fast means of <br>\naccessing model data. It doesn&#39;t need to cost much in terms of memory or <br>\nprocessor usage, and it bundles up a great deal of very useful functionality that <br>\nwe get for&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "A6eZFLXGrUwC",
+      "etag": "C6D+2XVKtiw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/A6eZFLXGrUwC",
+      "volumeInfo": {
+        "title": "Cisco IOS 12.0 Bridging and IBM Network Solutions",
+        "publisher": "Cisco Press",
+        "publishedDate": "1999",
+        "description": "Cisco IOS 12.0 Bridging and IBM Network Solutions contains configuration scenarios and command reference information that demonstrate bridging and IBM networking options. Written for network administrators, this guide explores transparent and source-route transparent bridging, Source-Route Bridging (SRB), data link switching plus (DLSw+), serial tunnel and block serial tunnel, SDLC and LLC2 parameters, and advanced peer-to-peer networking.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1578701627"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781578701629"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1525,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=A6eZFLXGrUwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=A6eZFLXGrUwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=A6eZFLXGrUwC&pg=PA8&dq=ios&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=A6eZFLXGrUwC&dq=ios&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cisco_IOS_12_0_Bridging_and_IBM_Network.html?hl=&id=A6eZFLXGrUwC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=A6eZFLXGrUwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "To route a received VLAN packet, Cisco <b>IOS</b> software VLAN switching code first <br>\nextracts the VLAN ID from the packet header (this is a 10-bit field in the case of <br>\nISL and a 4-byte entity known as the security association identifier in the case of&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_yU1XDHBAF8C",
+      "etag": "m9vEuRsyPBE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_yU1XDHBAF8C",
+      "volumeInfo": {
+        "title": "Advanced iOS 4 Programming",
+        "subtitle": "Developing Mobile Applications for Apple iPhone, iPad, and iPod touch",
+        "authors": [
+          "Maher Ali"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2010-10-01",
+        "description": "With Advanced iOS 4 Programming, developers have the expert guidance they need to create amazing applications for Apple's iPhone, iPad, and iPod touch. Inside, veteran mobile developer Dr. Maher Ali begins with a foundation introduction to Objective C and Cocoa Touch programming, and then guides readers through building apps with Apple's iPhone SDK 4 – including coverage of the major categories of new APIs and building apps for the new Apple iPad. This book concentrates on illustrating GUI concepts programmatically, allowing readers to fully appreciate the complete picture of iOS 4 development without relying on Interface Builder. In addition, Interface Builder is covered in several chapters. Advanced iOS 4 Programming delves into more advanced topics going beyond the basics of iOS 4 development, providing comprehensive coverage that will help you get your apps to the App Store quicker. Key features include: Objective-C programming language and runtime Interface Builder Building advanced mobile user interfaces Collections Cocoa Touch Core Animation and Quartz 2D Model-view-controller (MVC) designs Developing for the iPad Grand Central Dispatch Parsing XML documents using SAX, DOM, and TouchXML Working with the Map Kit API Remote and Local Push Notification Blocks (closures) in Objective-C Building advanced location-based applications Developing database applications using the SQLite engine GameKit framework",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0470971657"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470971659"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 720,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.2.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_yU1XDHBAF8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_yU1XDHBAF8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=_yU1XDHBAF8C&pg=PA24&dq=ios&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=_yU1XDHBAF8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_yU1XDHBAF8C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 157.1,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 157.1,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=_yU1XDHBAF8C&rdid=book-_yU1XDHBAF8C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 157100000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 157100000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Advanced_iOS_4_Programming-sample-epub.acsm?id=_yU1XDHBAF8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Advanced_iOS_4_Programming-sample-pdf.acsm?id=_yU1XDHBAF8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_yU1XDHBAF8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Cocoa under <b>iOS</b> does not employ a garbage collector. Instead, Cocoa <br>\napplications must use managed memory. Applications running on this platform <br>\nshould clean up after themselves. Because <b>iOS</b> applications run in a memory-<br>\nconstrained&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Bd0pYCqRcssC",
+      "etag": "wsHFyV8GrvE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Bd0pYCqRcssC",
+      "volumeInfo": {
+        "title": "IPhone IOS 6 Development Essentials",
+        "authors": [
+          "Neil Smyth"
+        ],
+        "publisher": "eBookFrenzy",
+        "publishedDate": "2012-10-10",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780986027307"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0986027308"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Bd0pYCqRcssC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Bd0pYCqRcssC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=Bd0pYCqRcssC&pg=PA73&dq=ios&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Bd0pYCqRcssC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Bd0pYCqRcssC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 77.84,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 77.84,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Bd0pYCqRcssC&rdid=book-Bd0pYCqRcssC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 77840000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 77840000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/IPhone_IOS_6_Development_Essentials-sample-epub.acsm?id=Bd0pYCqRcssC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Bd0pYCqRcssC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "We will see an example of subclassing in the context of <b>iOS</b> 6 development when <br>\nwe start to work with view controllers. The UIKit framework contains a class called <br>\nthe UIViewController. This is a generic view controller from which we will&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0ses_ButxJUC",
+      "etag": "4Bhca+oj4q0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0ses_ButxJUC",
+      "volumeInfo": {
+        "title": "Implementing Cisco IOS Network Security (IINS)",
+        "subtitle": "(CCNA Security exam 640-553) (Authorized Self-Study Guide)",
+        "authors": [
+          "Catherine Paquet"
+        ],
+        "publisher": "Cisco Press",
+        "publishedDate": "2009-04-14",
+        "description": "Implementing Cisco IOS Network Security (IINS) is a Cisco-authorized, self-paced learning tool for CCNA® Security foundation learning. This book provides you with the knowledge needed to secure Cisco® routers and switches and their associated networks. By reading this book, you will gain a thorough understanding of how to troubleshoot and monitor network devices to maintain integrity, confidentiality, and availability of data and devices, as well as the technologies that Cisco uses in its security infrastructure. This book focuses on the necessity of a comprehensive security policy and how it affects the posture of the network. You will learn how to perform basic tasks to secure a small branch type office network using Cisco IOS® security features available through the Cisco Router and Security Device Manager (SDM) web-based graphical user interface (GUI) and through the command-line interface (CLI) on Cisco routers and switches. The author also provides, when appropriate, parallels with Cisco ASA appliances. Whether you are preparing for CCNA Security certification or simply want to gain a better understanding of Cisco IOS security fundamentals, you will benefit from the information provided in this book. Implementing Cisco IOS Network Security (IINS) is part of a recommended learning path from Cisco that includes simulation and hands-on training from authorized Cisco Learning Partners and self-study products from Cisco Press. To find out more about instructor-led training, e-learning, and hands-on instruction offered by authorized Cisco Learning Partners worldwide, please visit www.cisco.com/go/authorizedtraining. Develop a comprehensive network security policy to counter threats against information security Configure routers on the network perimeter with Cisco IOS Software security features Configure firewall features including ACLs and Cisco IOS zone-based policy firewalls to perform basic security operations on a network Configure site-to-site VPNs using Cisco IOS features Configure IPS on Cisco network routers Configure LAN devices to control access, resist attacks, shield other network devices and systems, and protect the integrity and confidentiality of network traffic This volume is in the Certification Self-Study Series offered by Cisco Press®. Books in this series provide officially developed self-study solutions to help networking professionals understand technology implementations and prepare for the Cisco Career Certifications examinations.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1587058839"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781587058837"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 624,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.5.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0ses_ButxJUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0ses_ButxJUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=0ses_ButxJUC&pg=PR1&dq=ios&hl=&cd=11&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=0ses_ButxJUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0ses_ButxJUC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 141.36,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 141.36,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=0ses_ButxJUC&rdid=book-0ses_ButxJUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 141360000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 141360000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0ses_ButxJUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Implementing Cisco <b>IOS</b> Network Security (IINS) Catherine Paquet Cisco Press <br>\n800 East 96th Street Indianapolis, IN 46240 Implementing Cisco <b>IOS</b> Network <br>\nSecurity (IINS) Catherine Paquet Copyright © Implementing Cisco <b>IOS</b> Network&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mUsZBwAAQBAJ",
+      "etag": "fHmxRDP/I/M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mUsZBwAAQBAJ",
+      "volumeInfo": {
+        "title": "Learning iOS Forensics",
+        "authors": [
+          "Mattia Epifani",
+          "Pasquale Stirparo"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2015-03-10",
+        "description": "If you are a digital forensics examiner daily involved in the acquisition and analysis of mobile devices and want to have a complete overview of how to perform your work on iOS devices, this book is definitely for you.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781783553525"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1783553529"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 220,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mUsZBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mUsZBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=mUsZBwAAQBAJ&pg=PA194&dq=ios&hl=&cd=12&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=mUsZBwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mUsZBwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 78.99,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 78.99,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=mUsZBwAAQBAJ&rdid=book-mUsZBwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 78990000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 78990000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mUsZBwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... URL 186 <b>iOS</b> 8 189 <b>iOS</b> analysis with Oxygen Forensics Suite 2014 112-116 <br>\n<b>iOS</b> analysis suite 186 <b>iOS</b> Application Forensics URL 176 <b>iOS</b> apps, native <br>\nabout 91 address book 91 audio recordings 91 calendar application 92 call <br>\nhistory 93,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wTaJjotNVMEC",
+      "etag": "LtcBl8vnZ4w",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wTaJjotNVMEC",
+      "volumeInfo": {
+        "title": "Learn cocos2d Game Development with iOS 5",
+        "authors": [
+          "Steffen Itterheim",
+          "Andreas Lw"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2011-12-14",
+        "description": "Create compelling 2D games with Learn cocos2d Game Development with iOS 5. This book shows you how to use the powerful cocos2d game engine to develop games for iPhone and iPad with tilemaps, virtual joypads, Game Center, and more. It teaches you: The process and best practices of mobile game development, including sprite batching, texture atlases, parallax scrolling, touch and accelerometer input. How to enhance your games using the Box2D and Chipmunk physics engines and other cocos2d-related tools and libraries. How to add UIKit views to cocos2d and how to add cocos2d to UIKit apps. The ins and outs of the Kobold2D development environment for cocos2d and its preconfigured libraries, including cocos3d and Lua. Best of all, Learn cocos2d Game Development with iOS 5 will have you making games right from the very start. It guides you step-by-step through the creation of sample games. These fun examples are modeled after popular App Store games and teach you key concepts of the cocos2d game engine and relevant tools like TexturePacker (texture atlas), PhysicsEditor (physics collision shapes), Particle Designer (particle effects), Glyph Designer (bitmap fonts), and others. This book offers a rock-solid introduction to creating games made entirely with cocos2d and little or no iOS 5 SDK and OpenGL code. It also details alternative implementations, identifies the best free and commercial tools for cocos2d game development, features coverage of the author's improved cocos2d game engine (Kobold2D), and even helps you enhance your game's marketability on the App Store.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430238140"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1430238143"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 532,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wTaJjotNVMEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wTaJjotNVMEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=wTaJjotNVMEC&pg=PA16&dq=ios&hl=&cd=13&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=wTaJjotNVMEC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=wTaJjotNVMEC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 200.91,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 200.91,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=wTaJjotNVMEC&rdid=book-wTaJjotNVMEC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 200910000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 200910000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Learn_cocos2d_Game_Development_with_iOS-sample-epub.acsm?id=wTaJjotNVMEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Learn_cocos2d_Game_Development_with_iOS-sample-pdf.acsm?id=wTaJjotNVMEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wTaJjotNVMEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Note that Mac OS X 10.6 is mandatory for <b>iOS</b> development since the release of <br>\nthe <b>iOS</b> SDK 4 in June 2010. With the release of Mac OS X 10.7 Lion, you can <br>\nexpect that eventually it will become a requirement for <b>iOS</b> development."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XzZ8y-Cz_BsC",
+      "etag": "cYggjnNsHwA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XzZ8y-Cz_BsC",
+      "volumeInfo": {
+        "title": "Learn Cocoa Touch for iOS",
+        "authors": [
+          "Jeff Kelley"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2012-08-04",
+        "description": "The Cocoa Touch frameworks and APIs are powerful tools for creating native iOS apps, and they're free with Xcode, Apple's development environment. If you've already gotten your feet wet with Objective-C, and you're ready to learn more about iOS development, then Learn Cocoa Touch for iOS is the book for you. You'll learn on the job - building cool apps as you read through the book that will teach you what you need to know to use Cocoa Touch and prepare you for creating your own apps. Learn Cocoa Touch for iOS shows you how to use frameworks like MapKit, Twitter, and MediaPlayer. You'll also learn about hardware APIs so you can get the most out of your accelerometer, camera, and more. You'll even learn about more advanced features like Grand Central Dispatch. A home inventory management system A live-updating Twitter client A photo browser with an animated slideshow If you're ready for the next step toward becoming a Cocoa Touch master, this is the book for you.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430242703"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1430242701"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 396,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.5.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XzZ8y-Cz_BsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XzZ8y-Cz_BsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=XzZ8y-Cz_BsC&pg=PA371&dq=ios&hl=&cd=14&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=XzZ8y-Cz_BsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XzZ8y-Cz_BsC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 214.58,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 214.58,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=XzZ8y-Cz_BsC&rdid=book-XzZ8y-Cz_BsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 214580000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 214580000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Learn_Cocoa_Touch_for_iOS-sample-epub.acsm?id=XzZ8y-Cz_BsC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Learn_Cocoa_Touch_for_iOS-sample-pdf.acsm?id=XzZ8y-Cz_BsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XzZ8y-Cz_BsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Developing for <b>iOS</b> is many things: challenging, fun, rewarding, and exciting. One <br>\nthing it is not is free. To begin, doing any legitimate <b>iOS</b> development requires <br>\nusing Mac OS X, which requires a Mac to be compliant with Apple&#39;s license&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IWRh2HQFWucC",
+      "etag": "cA3wi3o5EmA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IWRh2HQFWucC",
+      "volumeInfo": {
+        "title": "The iOS 4 Developer's Cookbook",
+        "subtitle": "Core Concepts and Essential Recipes for iOS Programmers",
+        "authors": [
+          "Erica Sadun"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2011-10-13",
+        "description": "Praise for previous editions of The iPhone Developer’s Cookbook “This book would be a bargain at ten times its price! If you are writing iPhone software, it will save you weeks of development time. Erica has included dozens of crisp and clear examples illustrating essential iPhone development techniques and many others that show special effects going way beyond Apple’s official documentation.” –Tim Burks, iPhone Software Developer, TootSweet Software “Erica Sadun’s technical expertise lives up to the Addison-Wesley name. The iPhone Developer’s Cookbook is a comprehensive walkthrough of iPhone development that will help anyone out, from beginners to more experienced developers. Code samples and screenshots help punctuate the numerous tips and tricks in this book.” –Jacqui Cheng, Associate Editor, Ars Technica “We make our living writing this stuff and yet I am humbled by Erica’s command of her subject matter and the way she presents the material: pleasantly informal, then very appropriately detailed technically. This is a going to be the Petzold book for iPhone developers.” –Daniel Pasco, Lead Developer and CEO, Black Pixel Luminance “ “The iPhone Developer’s Cookbook should be the first resource for the beginning iPhone programmer, and is the best supplemental material to Apple’s own documentation.” –Alex C. Schaefer, Lead Programmer, ApolloIM, iPhone Application Development Specialist, MeLLmo, Inc. “Erica’s book is a truly great resource for Cocoa Touch developers. This book goes far beyond the documentation on Apple’s Web site, and she includes methods that give the developer a deeper understanding of the iPhone OS, by letting them glimpse at what’s going on behind the scenes on this incredible mobile platform.” –John Zorko, Sr. Software Engineer, Mobile Devices “I’ve found this book to be an invaluable resource for those times when I need to quickly grasp a new concept and walk away with a working block of code. Erica has an impressive knowledge of the iPhone platform, is a master at describing technical information, and provides a compendium of excellent code examples.” –John Muchow, 3 Sixty Software, LLC; founder, iPhoneDeveloperTips.com “This book is the most complete guide if you want coding for the iPhone, covering from the basics to the newest and coolest technologies. I built several applications in the past, but I still learned a huge amount from this book. It is a must-have for every iPhone developer.” –Roberto Gamboni, Software Engineer, AT&T Interactive “It’s rare that developer cookbooks can both provide good recipes and solid discussion of fundamental techniques, but Erica Sadun’s book manages to do both very well.” –Jeremy McNally, Developer, entp https://github.com/ http://ericasadun.com/",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780132575492"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0132575493"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 644,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.6.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=IWRh2HQFWucC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=IWRh2HQFWucC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=IWRh2HQFWucC&pg=PT10&dq=ios&hl=&cd=15&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=IWRh2HQFWucC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IWRh2HQFWucC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 79.96,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 79.96,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=IWRh2HQFWucC&rdid=book-IWRh2HQFWucC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 79960000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 79960000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=IWRh2HQFWucC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is not the <b>iOS</b> Cookbook you&#39;re expecting. Instead, it is the <b>iOS</b> Cookbook <br>\nyou were expecting. Last year. When <b>iOS</b> 4 debuted, my editor and I had a hard <br>\ndecision to make: Publish the book on <b>iOS</b> 4 and don&#39;t include Xcode 4 material,<br>\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cevlBQAAQBAJ",
+      "etag": "bZLIjpWhYPM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cevlBQAAQBAJ",
+      "volumeInfo": {
+        "title": "IP Routing on Cisco IOS, IOS XE, and IOS XR",
+        "subtitle": "An Essential Guide to Understanding and Implementing IP Routing Protocols",
+        "authors": [
+          "Brad Edgeworth",
+          "Aaron Foss",
+          "Ramiro Garza Rios"
+        ],
+        "publisher": "Cisco Press",
+        "publishedDate": "2014-12-19",
+        "description": "An Essential Guide to Understanding and Implementing IP Routing Protocols Cisco’s authoritative single-source guide to IP routing protocols for enterprise and service provider environments Service providers and large enterprises are converging on a common IP infrastructure that supports rapid deployment of high-value services. Demand is soaring for highly skilled IP network engineers who can implement and run these infrastructures. Now, one source combines reliable knowledge about contemporary IP routing protocols and expert hands-on guidance for using them with Cisco IOS, IOS XE, and IOS XR operating systems. After concisely reviewing the basics, three Cisco experts fully explain static routing, EIGRP, OSPF, IS-IS, and BGP routing protocols. Next, they introduce advanced routing with policies and redistribution, sophisticated BGP-based traffic engineering, and multicast. They present comprehensive coverage of IPv6, from its multicast implementation to its completely revamped address structure. Finally, they discuss advanced high availability techniques, including fast routing convergence. IP Routing on Cisco IOS, IOS XE, and IOS XR presents each protocol conceptually, with intuitive illustrations, realistic configurations, and appropriate output. To help IOS users master IOS XE and IOS XR, differences in operating systems are explicitly identified, and side-by-side feature command references are presented. All content fully aligns with Learning@Cisco, providing efficient self-study for multiple Cisco Career Certifications, including CCNA®/CCNP®/CCIE® Service Provider, CCIE Routing & Switching, Cisco IOS XR Specialist Certification, and the routing components of several additional Cisco Certifications. Brad Edgeworth, CCIE No. 31574 (R&S & SP) has been with Cisco since 2011 as Systems Engineer and Technical Leader. Formerly a network architect and consultant for various Fortune® 500 companies, his 18 years of IT experience includes extensive architectural and operational work in enterprise and service provider environments. He is a Cisco Live distinguished speaker presenting on IOS XR. Aaron Foss, CCIE No. 18761 (R&S & SP), a High Touch Engineer with the Cisco Focused Technical Support (FTS) organization, works with large service providers to troubleshoot MPLS, QoS, and IP routing issues. He has more than 15 years of experience designing, deploying, and troubleshooting IP networks. Ramiro Garza Rios, CCIE No. 15469 (R&S, SP, and Security), Senior Network Consulting Engineer with Cisco Advanced Services, plans, designs, implements, and optimizes next-generation service provider networks. Before joining Cisco in 2005, he was Network Consulting and Presales Engineer for a Cisco Gold Partner in Mexico, where he planned and deployed both enterprise and service provider networks. Foreword by Norm Dunn, Senior Product Manager, Learning@Cisco Global Product Management, Service Provider Portfolio Understand how IOS®, IOS XE, and IOS XR operating systems compare Master IPv4 concepts, addressing structure, and subnetting Learn how routers and routing protocols work, and how connected networks and static routes behave from the router’s perspective Work with EIGRP and distance vector routing Deploy basic and advanced OSPF, including powerful techniques for organizing routing domains, path selection, and optimization Compare IS-IS with OSPF, and implement advanced IS-IS multilevel routing, optimization, and path selection Make the most of BGP and route manipulation, including IOS/IOS XE route maps and IOS XR’s highly scalable Route Policy Language Use advanced policy-based route manipulation and filtering Implement route redistribution: rules, potential problems, and solutions Leverage BGP communities, summaries, and other router conservation techniques Discover how IPv6 changes IP address and command structure Establish highly efficient multicast routing in IPv4 and IPv6 environments Systematically improve network availability and operational uptime through event driven detection and fast routing convergence",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780133846768"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0133846768"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 850,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cevlBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cevlBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=cevlBQAAQBAJ&pg=PA1053&dq=ios&hl=&cd=16&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cevlBQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cevlBQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 189.37,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 189.37,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=cevlBQAAQBAJ&rdid=book-cevlBQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 189370000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 189370000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cevlBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "interarea route summarization, 279 <b>IOS</b> relay agents, 927-928 <b>IOS</b> XR relay <br>\nproxy agents, 928-929 two-stage commit, 14-17 IPv6 multicast, 1025 static, 942-<br>\n943 unicast, 899 IS-IS, 340 authentication, 369-370 broadcast interfaces as P2P,<br>\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jea8AQAAQBAJ",
+      "etag": "y9AFsroLB3Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jea8AQAAQBAJ",
+      "volumeInfo": {
+        "title": "Learning IOS Development",
+        "subtitle": "A Hands-on Guide to the Fundamentals of IOS Programming",
+        "authors": [
+          "Maurice Sharp",
+          "Rod Strougo",
+          "Erica Sadun"
+        ],
+        "publisher": "Addison-Wesley Professional",
+        "publishedDate": "2013",
+        "description": "Features hands-on sample projects and exercises designed to help programmers create iOS applications.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780321862969"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0321862961"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 556,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Jea8AQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Jea8AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=Jea8AQAAQBAJ&pg=PA1&dq=ios&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=Jea8AQAAQBAJ&dq=ios&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Learning_IOS_Development.html?hl=&id=Jea8AQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Jea8AQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A Hands-on Guide to the Fundamentals of <b>IOS</b> Programming Maurice Sharp, Rod <br>\nStrougo, Erica Sadun. 1. Hello,. <b>iOS</b>. SDK. Developing for <b>iOS</b> is a joyful and fun <br>\nadventure in learning Objective-C and the Apple frameworks. Nowhere else is it&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "-8RA47mPxZgC",
+      "etag": "bYoSE3fBTe4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-8RA47mPxZgC",
+      "volumeInfo": {
+        "title": "Inside Cisco IOS Software Architecture",
+        "authors": [
+          "Vijay Bollapragada",
+          "Russ White",
+          "Curtis Murphy"
+        ],
+        "publisher": "Cisco Press",
+        "publishedDate": "2008-07-28",
+        "description": "An essential guide to understanding the Cisco IOS architecture In-depth coverage of Cisco's IOS Software architecture provides crucial information to: Prevent network problems and optimize performance through more efficient design and configuration Isolate and resolve network problems more quickly and easily Apply the appropriate packet switching method, such as process switching, fast switching, optimum switching, or Cisco Express Forwarding (CEF) Understand the hardware architecture, packet buffering, and packet switching processes for shared memory routers (Cisco 1600, 2500, 3600, 4000, 4500, and 4700 series) Understand the hardware architecture, packet buffering, and packet switching processes for the Cisco 7200 series routers Understand the hardware architecture, packet buffering, and packet switching processes for the Cisco 7500 series routers Understand the hardware architecture, packet buffering, and packet switching processes for the Cisco GSR 12000 series routers Further your knowledge of how IOS Software implements Quality of Service (QoS) Inside Cisco IOS Software Architecture offers crucial and hard-to-find information on Cisco's Internetwork Operating System (IOS) Software. IOS Software provides the means by which networking professionals configure and manage Cisco networking devices. Beyond understanding the Cisco IOS command set, comprehending what happens inside Cisco routers will help you as a network designer or engineer to perform your job more effectively. By understanding the internal operations of IOS Software, you will be able to take architectural considerations into account when designing networks and isolate problems more easily when troubleshooting networks. Inside Cisco IOS Software Architecture provides essential information on the internal aspects of IOS Software at this level, and it is an invaluable resource for better understanding the intricacies of IOS Software and how it affects your network. Inide Cisco IOS Software Architecture begins with an overview of operating system concepts and the IOS Software infrastructure, including processes, memory management, CPU scheduling, packet buffers, and device drivers, as well as a discussion of packet switching architecture with detailed coverage of the various platform-independent switching methods, including process switching, fast switching, optimum switching, and Cisco Express Forwarding (CEF). The book then delves into the intricate details of the design and operation of platform-specific features, including the 1600, 2500, 4x00, 3600, 7200, 7500, and GSR Cisco routers. Finally, an overview of IOS Quality of Service (QoS) is provided, including descriptions of several QoS methods, such as priority queuing, custom queuing, weighted fair queuing, and modified deficit round robin.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0132796856"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780132796859"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.4.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=-8RA47mPxZgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-8RA47mPxZgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=-8RA47mPxZgC&pg=PR12&dq=ios&hl=&cd=18&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=-8RA47mPxZgC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-8RA47mPxZgC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 178.68,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 178.68,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=-8RA47mPxZgC&rdid=book--8RA47mPxZgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 178680000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 178680000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-8RA47mPxZgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Cisco has built a very successful business selling the equipment that forms the <br>\nnetwork infrastructure—by some accounts, Cisco has more than 85 percent of the <br>\nmarket—and at the same time has seen its Cisco <b>IOS</b> Software become a de&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Bg9QDwAAQBAJ",
+      "etag": "hUkzTAyc3ow",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Bg9QDwAAQBAJ",
+      "volumeInfo": {
+        "title": "iOS 10 SDK Development",
+        "subtitle": "Creating iPhone and iPad Apps with Swift",
+        "authors": [
+          "Chris Adamson",
+          "Janie Clayton"
+        ],
+        "publisher": "Pragmatic Bookshelf",
+        "publishedDate": "2017-03-24",
+        "description": "All in on Swift! iOS 10 and Xcode 8 make it clearer than ever that Swift is Apple's language of the future. Core frameworks have been redesigned to work better with Swift, and the language itself continues to evolve quickly. iOS 10 SDK Development is the pure-Swift approach to developing for the iOS platform. This completely revised and updated edition of the bestselling iOS guide shows you how to pull in the SDK's enormous feature set and deliver powerful, real-world apps for iPhone and iPad using modern Swift programming techniques. Swift is the language of the future for iOS development, and this completely revised and updated book is your guide. From the community-driven changes in Swift 3 to the overhaul of iOS' Foundation framework to make it more \"Swifty,\" iOS 10 and Xcode 8 mark an \"all in\" commitment to Swift, and this new edition matches that commitment. Learn not just the syntax of the Swift language but also stylish Swift, the idiomatic uses of the language, and best practices you'll find in the wild. From there, move into developing a complete, real-world podcast client sample application-completely new for this edition-featuring Internet access, tables, navigation, and media playback, all with the most modern approaches provided by Apple's iOS 10 frameworks and tools. Go beyond code to master the practices that professional developers rely on: testing, debugging, publishing on the App Store, and managing your app over the long haul. As a bonus, you'll get a taste of cutting-edge iOS 10 features, such as the new Siri voice-command API. Swift's time is here. Whether you're new to Swift or just catching up on iOS' latest features, iOS 10 SDK Development will help you master the language and the platform.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781680503708"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1680503707"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 264,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Bg9QDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Bg9QDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=Bg9QDwAAQBAJ&pg=PT15&dq=ios&hl=&cd=19&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=Bg9QDwAAQBAJ&dq=ios&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/iOS_10_SDK_Development.html?hl=&id=Bg9QDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/iOS_10_SDK_Development-sample-epub.acsm?id=Bg9QDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/iOS_10_SDK_Development-sample-pdf.acsm?id=Bg9QDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Bg9QDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is the fifth time Pragmatic Programmers has offered an introductory book for <br>\n<b>iOS</b> developers. The previous entries were iPhone SDK Development in 2009 (<br>\ncovering iPhone OS 3), <b>iOS</b> SDK Development in 2012 (for <b>iOS</b> 6), <b>iOS</b> 8 SDK&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ITvMnQYIzRYC",
+      "etag": "MtB2q5kPlFI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ITvMnQYIzRYC",
+      "volumeInfo": {
+        "title": "Essential iOS Build and Release",
+        "subtitle": "A Comprehensive Guide to Building, Packaging, and Distribution",
+        "authors": [
+          "Ron Roche"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2011-12-19",
+        "description": "Frustrated by the requirements for testing and distributing your iOS app? You’re not alone. This concise book takes you step by step through the maze of certification and provisioning processes that have to happen before, during, and after development. You’ll learn what’s required to sign certificates, test your app on iOS devices, and release the finished product to the App Store. Whether you’re a developer looking to spend more time coding and less time figuring out how to install your application, or a release engineer responsible for producing reliable builds, this guide will help you successfully navigate the build and release processes for your iOS app. Get an overview of the iOS Dev Center, including the iOS Provisioning Portal, Member Center, and iTunes Connect Create your App ID, and generate signing certificates for development and distribution Manage the provisioning profiles necessary to test your app on iOS devices Learn common scenarios for iOS Simulator, Ad Hoc, and App Store distribution builds Automate the process to continuously build, sign, and package your app(s) for distribution",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781449326388"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1449326382"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 182,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ITvMnQYIzRYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ITvMnQYIzRYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=ITvMnQYIzRYC&pg=PA43&dq=ios&hl=&cd=20&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ITvMnQYIzRYC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ITvMnQYIzRYC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 28.99,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 28.99,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ITvMnQYIzRYC&rdid=book-ITvMnQYIzRYC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 28990000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 28990000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ITvMnQYIzRYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "For those who are part of the <b>iOS</b> Developer Program, a large part of the <b>iOS</b> <br>\nbuild and release process is the setup of <b>iOS</b> devices for testing. In Chapter 2, we <br>\ncovered setting up your App ID and certificates. This chapter focuses on the next<br>\n&nbsp;..."
+      }
+    }
+  ]
+}
