@@ -36,7 +36,7 @@ public class FavoriteBookManager {
         return business.recover(withKey: key)
     }
     
-    public func recoverAll() -> [Book?] {
+    public func recoverAll() -> [Book] {
         return business.recoverAll()
     }
 }

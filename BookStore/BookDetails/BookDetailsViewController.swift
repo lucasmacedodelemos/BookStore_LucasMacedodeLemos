@@ -32,13 +32,14 @@ class BookDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
-        populateBook()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        populateBook()
     }
     
     // MARK:- Actions
