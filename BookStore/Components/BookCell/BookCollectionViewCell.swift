@@ -24,8 +24,6 @@ class BookCollectionViewCell: UICollectionViewCell {
     }
     
     private func setupLayout() {
-        bookImageView.layer.cornerRadius = 15
-        
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOpacity = 0.3
         self.layer.shadowOffset = .zero

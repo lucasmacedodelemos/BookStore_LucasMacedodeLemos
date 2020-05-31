@@ -89,13 +89,13 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="829"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="90K-kB-p26">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="751.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="731.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fs5-i0-w7E" userLabel="Thumbnail View">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="466.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="446.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UXq-d0-NJC" customClass="BookImageView" customModule="BookStore" customModuleProvider="target">
-                                                        <rect key="frame" x="80" y="40" width="254" height="406.5"/>
+                                                        <rect key="frame" x="80" y="20" width="254" height="406.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="UXq-d0-NJC" secondAttribute="height" multiplier="1:1.6" id="Ikw-5l-ko6"/>
                                                         </constraints>
@@ -104,13 +104,13 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="UXq-d0-NJC" secondAttribute="trailing" constant="80" id="6ZD-QV-OMn"/>
-                                                    <constraint firstItem="UXq-d0-NJC" firstAttribute="top" secondItem="fs5-i0-w7E" secondAttribute="top" constant="40" id="VVd-iw-L5C"/>
+                                                    <constraint firstItem="UXq-d0-NJC" firstAttribute="top" secondItem="fs5-i0-w7E" secondAttribute="top" constant="20" id="VVd-iw-L5C"/>
                                                     <constraint firstAttribute="bottom" secondItem="UXq-d0-NJC" secondAttribute="bottom" constant="20" id="ldQ-oE-rMG"/>
                                                     <constraint firstItem="UXq-d0-NJC" firstAttribute="leading" secondItem="fs5-i0-w7E" secondAttribute="leading" constant="80" id="xEp-u4-eJB"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzH-Mj-8PO" userLabel="Title View">
-                                                <rect key="frame" x="0.0" y="466.5" width="414" height="50"/>
+                                                <rect key="frame" x="0.0" y="446.5" width="414" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6V-3g-MHy">
                                                         <rect key="frame" x="20" y="10" width="374" height="30"/>
@@ -128,7 +128,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71a-f1-iIs" userLabel="Authors View">
-                                                <rect key="frame" x="0.0" y="516.5" width="414" height="50"/>
+                                                <rect key="frame" x="0.0" y="496.5" width="414" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtU-SY-bAQ">
                                                         <rect key="frame" x="20" y="0.0" width="374" height="40"/>
@@ -146,7 +146,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L13-6g-eA6">
-                                                <rect key="frame" x="0.0" y="566.5" width="414" height="84"/>
+                                                <rect key="frame" x="0.0" y="546.5" width="414" height="84"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tik-wp-M7y">
                                                         <rect key="frame" x="80" y="20" width="254" height="44"/>
@@ -177,7 +177,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NMu-MB-s9N" userLabel="Description View">
-                                                <rect key="frame" x="0.0" y="650.5" width="414" height="101"/>
+                                                <rect key="frame" x="0.0" y="630.5" width="414" height="101"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ig-wE-huW">
                                                         <rect key="frame" x="20" y="0.0" width="374" height="1"/>
@@ -238,7 +238,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="l0L-G2-s9m"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Details" id="kGd-NQ-bbP"/>
+                    <navigationItem key="navigationItem" title="Details" id="kGd-NQ-bbP">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="star" catalog="system" id="Sco-H3-XLo">
+                            <connections>
+                                <action selector="favoriteButtonDidTap:" destination="NWu-HN-oyC" id="6mY-nC-QPE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="1000"/>
                     <connections>
@@ -310,5 +316,6 @@
     </scenes>
     <resources>
         <image name="book.fill" catalog="system" width="128" height="100"/>
+        <image name="star" catalog="system" width="128" height="116"/>
     </resources>
 </document>

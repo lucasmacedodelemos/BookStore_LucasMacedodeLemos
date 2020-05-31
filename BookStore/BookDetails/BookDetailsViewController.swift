@@ -14,6 +14,8 @@ class BookDetailsViewController: UIViewController {
 
     var book: Book?
     
+    private var isFavorited = false
+    
     @IBOutlet weak var bookImageView: BookImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var authorsLabel: UILabel!
@@ -23,17 +25,26 @@ class BookDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupLayout()
         populateBook()
+        changeFavoriteButtonStatus()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
+
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    private func setupLayout() {
+        bookImageView.layer.shadowColor = UIColor.black.cgColor
+        bookImageView.layer.shadowOpacity = 0.3
+        bookImageView.layer.shadowOffset = .zero
+        bookImageView.layer.shadowRadius = 5
+        bookImageView.clipsToBounds = false
+    }
     
-    func populateBook() {
+    private func populateBook() {
         
         titleLabel.text = book?.volumeInfo.title
         authorsLabel.text = book?.volumeInfo.authors?.joined(separator: ", ")
@@ -54,12 +65,27 @@ class BookDetailsViewController: UIViewController {
         }
     }
     
+    private func changeFavoriteButtonStatus() {
+        let favoriteButton = navigationItem.rightBarButtonItem
+        
+        if isFavorited {
+            favoriteButton?.image = UIImage(systemName: "star.fill")
+        } else {
+            favoriteButton?.image = UIImage(systemName: "star")
+        }
+    }
+    
+    @IBAction func favoriteButtonDidTap(_ sender: UIBarButtonItem) {
+        isFavorited = !isFavorited
+        changeFavoriteButtonStatus()
+    }
+    
     @IBAction func buyButtonDidTap(_ sender: Any) {
         guard let buyLink = book?.saleInfo.buyLink, let url = URL(string: buyLink) else {
             return
         }
         
         let safari = SFSafariViewController(url: url)
-        self.navigationController?.present(safari, animated: true, completion: nil)
+        navigationController?.present(safari, animated: true, completion: nil)
     }
 }

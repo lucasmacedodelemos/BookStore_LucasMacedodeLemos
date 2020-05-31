@@ -13,6 +13,8 @@
 		BD2A1EDA2482ED3600D5B9B2 /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A1ED82482ED3600D5B9B2 /* BookCollectionViewCell.xib */; };
 		BD2A1EDD2482F76800D5B9B2 /* BookImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A1EDC2482F76800D5B9B2 /* BookImageView.swift */; };
 		BD2A1EE0248316BA00D5B9B2 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A1EDF248316BA00D5B9B2 /* BookDetailsViewController.swift */; };
+		BD2A1EE22484065800D5B9B2 /* FavoriteBookProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A1EE12484065800D5B9B2 /* FavoriteBookProviderTests.swift */; };
+		BD2A1EE42484166400D5B9B2 /* FavoriteBookProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A1EE32484166400D5B9B2 /* FavoriteBookProvider.swift */; };
 		BD4512272481A9DC00508B44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4512262481A9DC00508B44 /* AppDelegate.swift */; };
 		BD45122B2481A9DC00508B44 /* BooksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45122A2481A9DC00508B44 /* BooksListViewController.swift */; };
 		BD45122D2481A9DC00508B44 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45122C2481A9DC00508B44 /* SecondViewController.swift */; };
@@ -180,6 +182,8 @@
 		BD2A1ED82482ED3600D5B9B2 /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
 		BD2A1EDC2482F76800D5B9B2 /* BookImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookImageView.swift; sourceTree = "<group>"; };
 		BD2A1EDF248316BA00D5B9B2 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		BD2A1EE12484065800D5B9B2 /* FavoriteBookProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookProviderTests.swift; sourceTree = "<group>"; };
+		BD2A1EE32484166400D5B9B2 /* FavoriteBookProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookProvider.swift; sourceTree = "<group>"; };
 		BD4512232481A9DC00508B44 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4512262481A9DC00508B44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD45122A2481A9DC00508B44 /* BooksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListViewController.swift; sourceTree = "<group>"; };
@@ -518,8 +522,9 @@
 			isa = PBXGroup;
 			children = (
 				BDDF86D62481E87D00E59478 /* BookProviderTests.swift */,
-				BDDF86C02481D27700E59478 /* Info.plist */,
+				BD2A1EE12484065800D5B9B2 /* FavoriteBookProviderTests.swift */,
 				BD83D4852481FA1A00A2C15B /* RequestMock.swift */,
+				BDDF86C02481D27700E59478 /* Info.plist */,
 			);
 			path = ProviderTests;
 			sourceTree = "<group>";
@@ -528,6 +533,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDF86D42481E21E00E59478 /* BookProvider.swift */,
+				BD2A1EE32484166400D5B9B2 /* FavoriteBookProvider.swift */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -1000,6 +1006,7 @@
 				BD83D4842481F5A400A2C15B /* URLComponents.swift in Sources */,
 				BDDF86D22481D86900E59478 /* Request.swift in Sources */,
 				BDDF86D52481E21E00E59478 /* BookProvider.swift in Sources */,
+				BD2A1EE42484166400D5B9B2 /* FavoriteBookProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,6 +1014,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2A1EE22484065800D5B9B2 /* FavoriteBookProviderTests.swift in Sources */,
 				BD83D4862481FA1A00A2C15B /* RequestMock.swift in Sources */,
 				BDDF86D72481E87D00E59478 /* BookProviderTests.swift in Sources */,
 			);
