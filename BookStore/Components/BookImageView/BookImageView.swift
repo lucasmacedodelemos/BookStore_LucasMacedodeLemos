@@ -10,11 +10,15 @@ import UIKit
 
 class BookImageView: UIImageView {
     
+    // MARK:- Properties
+    
     private var task: URLSessionDataTask?
     private var downloading = false
     
-    func downloadImage(with url: String) {
-        self.image = nil
+    // MARK:- Public Methods
+    
+    public func downloadImage(with url: String) {
+        image = nil
         
         if downloading {
             cancelTask()
@@ -24,15 +28,17 @@ class BookImageView: UIImageView {
             return
         }
         
-        self.downloading = true
+        downloading = true
         requestImage(from: url)
     }
     
-    func requestImage(from url: URL) {
-        self.task = URLSession.shared.dataTask(with: url, completionHandler: { [weak self] (data, response, error) in
+    // MARK:- Private Methods
+    
+    private func requestImage(from url: URL) {
+        task = URLSession.shared.dataTask(with: url, completionHandler: { [weak self] (data, response, error) in
             
             guard let data = data, error == nil else {
-                DispatchQueue.main.async() { [weak self] in
+                DispatchQueue.main.async() {
                     self?.image = nil
                 }
                 
@@ -46,10 +52,10 @@ class BookImageView: UIImageView {
             self?.downloading = false
         })
         
-        self.task?.resume()
+        task?.resume()
     }
     
-    func cancelTask() {
+    private func cancelTask() {
         task?.cancel()
     }
 }

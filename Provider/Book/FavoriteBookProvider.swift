@@ -10,9 +10,15 @@ import Foundation
 
 public class FavoriteBookProvider {
     
-    let dictionaryKey = "books"
-        
+    // MARK:- Properties
+    
+    private let dictionaryKey = "books"
+    
+    // MARK:- Init
+    
     public init() {}
+    
+    // MARK:- Public Methods
     
     public func add(_ data: Data, withKey key: String) {
         var dictionary: [String : Data] = recoverDictionary() ?? [:]

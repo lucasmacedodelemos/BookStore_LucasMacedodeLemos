@@ -10,7 +10,11 @@ import Foundation
 
 public struct SaleInfo: Codable {
     
+    // MARK:- Properties
+    
     public let buyLink: String?
+    
+    // MARK:- Init
     
     public init(buyLink: String?) {
         self.buyLink = buyLink

@@ -12,17 +12,26 @@ import Model
 
 open class BookBusiness {
     
-    var provider: BookProvider
+    // MARK:- Properties
+    
+    private var provider: BookProvider
+    private let maxResults = 20
+    private let questionParameter = "q"
+    private let maxResultsParameter = "maxResults"
+    private let startIndexParameter = "startIndex"
+    
+    // MARK:- Init
     
     public init(provider: BookProvider = BookProvider()) {
         self.provider = provider
     }
     
+    // MARK:- Open Methods
+    
     open func fetchBooks(question: String, page: Int, completionHandler: @escaping (BooksResponse?) -> Void) {
-        let maxResults = 20
         let startIndex = maxResults * page
         
-        let parameters = ["q": question, "maxResults": String(maxResults), "startIndex": String(startIndex)]
+        let parameters = [questionParameter: question, maxResultsParameter: String(maxResults), startIndexParameter: String(startIndex)]
                 
         provider.fetchBooks(parameters: parameters) { (data, error) in
             guard let data = data else {

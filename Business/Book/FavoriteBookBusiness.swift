@@ -12,11 +12,17 @@ import Provider
 
 public class FavoriteBookBusiness {
     
+    // MARK:- Properties
+    
     private var provider: FavoriteBookProvider
+    
+    // MARK:- Init
     
     public init(provider: FavoriteBookProvider = FavoriteBookProvider()) {
         self.provider = provider
     }
+    
+    // MARK:- Public Methods
     
     public func save(_ book: Book) -> Bool {
         

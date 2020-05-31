@@ -10,6 +10,8 @@ import Foundation
 import Business
 import Model
 
+// MARK:- Enum
+
 public enum BooksListSuccessType {
     case success(books: [Book])
 }
@@ -18,6 +20,8 @@ public enum BooksListErrorType {
     case error
 }
 
+// MARK:- Protocol
+
 public protocol BooksListManagerDelegate: AnyObject {
     func handleError(type: BooksListErrorType)
     func handleSuccess(type: BooksListSuccessType)
@@ -25,13 +29,19 @@ public protocol BooksListManagerDelegate: AnyObject {
 
 public class BooksListManager {
     
+    // MARK:- Properties
+    
     private weak var delegate: BooksListManagerDelegate?
     private var business: BookBusiness
 
+    // MARK:- Init
+    
     public init(delegate: BooksListManagerDelegate, business: BookBusiness = BookBusiness()) {
         self.delegate = delegate
         self.business = business
     }
+
+    // MARK:- Public Methods
     
     public func fetchBooks(question: String, page: Int) {
         

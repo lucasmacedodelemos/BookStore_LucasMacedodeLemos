@@ -9,11 +9,15 @@
 import UIKit
 import Model
 import SafariServices
+import Manager
 
 class BookDetailsViewController: UIViewController {
 
+    // MARK:- Properties
+    
     var book: Book?
     
+    lazy var favoriteBookManager = FavoriteBookManager()
     private var isFavorited = false
     
     @IBOutlet weak var bookImageView: BookImageView!
@@ -23,11 +27,12 @@ class BookDetailsViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var descriptionView: UIView!
     
+    // MARK:- Override Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
         populateBook()
-        changeFavoriteButtonStatus()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -36,6 +41,24 @@ class BookDetailsViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    // MARK:- Actions
+    
+    @IBAction func favoriteButtonDidTap(_ sender: UIBarButtonItem) {
+        favoriteBook()
+        changeFavoriteButtonStatus()
+    }
+    
+    @IBAction func buyButtonDidTap(_ sender: Any) {
+        guard let buyLink = book?.saleInfo.buyLink, let url = URL(string: buyLink) else {
+            return
+        }
+        
+        let safari = SFSafariViewController(url: url)
+        navigationController?.present(safari, animated: true, completion: nil)
+    }
+    
+    // MARK:- Private Methods
+        
     private func setupLayout() {
         bookImageView.layer.shadowColor = UIColor.black.cgColor
         bookImageView.layer.shadowOpacity = 0.3
@@ -46,6 +69,11 @@ class BookDetailsViewController: UIViewController {
     
     private func populateBook() {
         
+        if let bookId = book?.bookId {
+            isFavorited = favoriteBookManager.recover(withKey: bookId) != nil
+            changeFavoriteButtonStatus()
+        }
+
         titleLabel.text = book?.volumeInfo.title
         authorsLabel.text = book?.volumeInfo.authors?.joined(separator: ", ")
         descriptionLabel.text = book?.volumeInfo.description
@@ -75,17 +103,16 @@ class BookDetailsViewController: UIViewController {
         }
     }
     
-    @IBAction func favoriteButtonDidTap(_ sender: UIBarButtonItem) {
-        isFavorited = !isFavorited
-        changeFavoriteButtonStatus()
-    }
-    
-    @IBAction func buyButtonDidTap(_ sender: Any) {
-        guard let buyLink = book?.saleInfo.buyLink, let url = URL(string: buyLink) else {
+    private func favoriteBook() {
+        guard let book = self.book else {
             return
         }
         
-        let safari = SFSafariViewController(url: url)
-        navigationController?.present(safari, animated: true, completion: nil)
+        if isFavorited {
+            favoriteBookManager.remove(withKey: book.bookId)
+            isFavorited = false
+        } else {
+            isFavorited = favoriteBookManager.save(book)
+        }
     }
 }

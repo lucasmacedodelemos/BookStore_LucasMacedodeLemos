@@ -10,7 +10,11 @@ import Foundation
 
 public struct ImageLinks: Codable {
     
+    // MARK:- Properties
+    
     public let thumbnail: String
+    
+    // MARK:- Init
     
     public init(thumbnail: String) {
         self.thumbnail = thumbnail

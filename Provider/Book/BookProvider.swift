@@ -10,16 +10,23 @@ import Foundation
 
 open class BookProvider {
     
-    var request: RequestProtocol
-    let baseURL = "https://www.googleapis.com/books"
+    // MARK:- Properties
+    
+    private var request: RequestProtocol
+    private let baseURL = "https://www.googleapis.com/books"
+    private let volumesEndpoint = "/v1/volumes"
+    
+    // MARK:- Init
     
     public init(request: RequestProtocol = Request()) {
         self.request = request
     }
     
+    // MARK:- Open Methods
+    
     open func fetchBooks(parameters: [String: String]?, completionHandler: @escaping (Data?, Error?) -> Void) {
                 
-        let url = "\(baseURL)/v1/volumes"
+        let url = "\(baseURL)\(volumesEndpoint)"
         
         request.make(url: url, method: .GET, parameters: parameters) { (data, response, error) in
             completionHandler(data, error)

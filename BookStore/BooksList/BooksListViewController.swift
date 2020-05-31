@@ -12,11 +12,18 @@ import Manager
 
 class BooksListViewController: UIViewController {
     
+    // MARK:- Properties
+    
     lazy var booksListManager = BooksListManager(delegate: self)
     private var books: [Book] = []
     private var page = 0
     private var question = ""
+    private let bookDetailsSegue = "bookDetailsSegue"
+    private let bookCellIdentifier = "bookCell"
+    
     @IBOutlet weak var collectionView: UICollectionView!
+    
+    // MARK:- Override Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,44 +32,50 @@ class BooksListViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
-    }
-    
-    private func registerCell() {
-        collectionView.register(UINib.init(nibName: "BookCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "bookCell")
-    }
-    
-    private func fetchBooks() {
-        if self.question.trimmingCharacters(in: .whitespaces).count == 0 {
-            return
-        }
-        
-        self.view.endEditing(true)
-        booksListManager.fetchBooks(question: question, page: self.page)
-    }
-    
-    private func resetCollectionView() {
-        self.books.removeAll()
-        self.collectionView.reloadData()
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "bookDetailsSegue" {
+        if segue.identifier == bookDetailsSegue {
             let bookDetails = segue.destination as? BookDetailsViewController
             bookDetails?.book = sender as? Book
         }
     }
+    
+    // MARK:- Private Methods
+    
+    private func registerCell() {
+        collectionView.register(UINib.init(nibName: String(describing: BookCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: bookCellIdentifier)
+    }
+    
+    private func fetchBooks() {
+        if question.trimmingCharacters(in: .whitespaces).count == 0 {
+            return
+        }
+        
+        view.endEditing(true)
+        booksListManager.fetchBooks(question: question, page: self.page)
+    }
+    
+    private func resetCollectionView() {
+        books.removeAll()
+        collectionView.reloadData()
+    }
 }
+
+// MARK:- Search bar delegate
 
 extension BooksListViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         resetCollectionView()
-        self.question = searchBar.text ?? ""
+        question = searchBar.text ?? ""
         fetchBooks()
     }
 }
+
+// MARK:- Book list manager delegate
 
 extension BooksListViewController: BooksListManagerDelegate {
     func handleError(type: BooksListErrorType) {
@@ -74,17 +87,19 @@ extension BooksListViewController: BooksListManagerDelegate {
         case let .success(books):
             self.books.append(contentsOf: books)
 
-            DispatchQueue.main.async {
-                self.collectionView.reloadData()
+            DispatchQueue.main.async { [weak self] in
+                self?.collectionView.reloadData()
             }
         }
     }
 }
 
+// MARK:- Collection view delegate and data source
+
 extension BooksListViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "bookDetailsSegue", sender: self.books[indexPath.row])
+        performSegue(withIdentifier: bookDetailsSegue, sender: self.books[indexPath.row])
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -92,8 +107,7 @@ extension BooksListViewController: UICollectionViewDelegate, UICollectionViewDat
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let reuseIdentifier = "bookCell"
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! BookCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: bookCellIdentifier, for: indexPath) as! BookCollectionViewCell
         cell.configure(with: books[indexPath.row])
         
         return cell

@@ -10,10 +10,14 @@ import Foundation
 
 public struct VolumeInfo: Codable {
     
+    // MARK:- Properties
+    
     public let title: String
     public let authors: [String]?
     public let description: String?
     public let imageLinks: ImageLinks
+    
+    // MARK:- Init
     
     public init(title: String, authors: [String]?, description: String?, imageLinks: ImageLinks) {
         self.title = title
