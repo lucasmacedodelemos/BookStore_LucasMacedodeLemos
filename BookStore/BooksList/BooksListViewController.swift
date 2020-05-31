@@ -15,17 +15,52 @@ class BooksListViewController: UIViewController {
     lazy var booksListManager = BooksListManager(delegate: self)
     private var books: [Book] = []
     private var page = 0
+    private var question = ""
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         registerCell()
-        
-        booksListManager.fetchBooks(question: "ios", page: self.page)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     private func registerCell() {
         collectionView.register(UINib.init(nibName: "BookCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "bookCell")
+    }
+    
+    private func fetchBooks() {
+        if self.question.trimmingCharacters(in: .whitespaces).count == 0 {
+            return
+        }
+        
+        self.view.endEditing(true)
+        booksListManager.fetchBooks(question: question, page: self.page)
+    }
+    
+    private func resetCollectionView() {
+        self.books.removeAll()
+        self.collectionView.reloadData()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "bookDetailsSegue" {
+            let bookDetails = segue.destination as? BookDetailsViewController
+            bookDetails?.book = sender as? Book
+        }
+    }
+}
+
+extension BooksListViewController: UISearchBarDelegate {
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        resetCollectionView()
+        self.question = searchBar.text ?? ""
+        fetchBooks()
     }
 }
 
@@ -47,6 +82,10 @@ extension BooksListViewController: BooksListManagerDelegate {
 }
 
 extension BooksListViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "bookDetailsSegue", sender: self.books[indexPath.row])
+    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return books.count
@@ -88,4 +127,3 @@ extension BooksListViewController: UICollectionViewDelegate, UICollectionViewDat
         }, completion: nil)
     }
 }
-
