@@ -50,7 +50,7 @@ public class FavoriteBookBusiness {
         return book
     }
     
-    public func recoverAll() -> [Book?] {
+    public func recoverAll() -> [Book] {
         
         guard let dictionary = provider.recoverAll() else {
             return []
@@ -60,6 +60,6 @@ public class FavoriteBookBusiness {
             try? JSONDecoder().decode(Book.self, from: $0.value)
         }
         
-        return books
+        return books.compactMap { $0 }
     }
 }

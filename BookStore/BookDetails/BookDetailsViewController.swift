@@ -32,13 +32,14 @@ class BookDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLayout()
-        populateBook()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
         navigationController?.setNavigationBarHidden(false, animated: true)
+        
+        populateBook()
     }
     
     // MARK:- Actions
@@ -84,7 +85,7 @@ class BookDetailsViewController: UIViewController {
             descriptionView.isHidden = true
         }
         
-        if let thumbnail = book?.volumeInfo.imageLinks.thumbnail {
+        if let thumbnail = book?.volumeInfo.imageLinks?.thumbnail {
             bookImageView.downloadImage(with: thumbnail)
         }
         
