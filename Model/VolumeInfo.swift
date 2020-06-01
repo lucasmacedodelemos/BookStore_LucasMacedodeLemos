@@ -15,11 +15,11 @@ public struct VolumeInfo: Codable {
     public let title: String
     public let authors: [String]?
     public let description: String?
-    public let imageLinks: ImageLinks
+    public let imageLinks: ImageLinks?
     
     // MARK:- Init
     
-    public init(title: String, authors: [String]?, description: String?, imageLinks: ImageLinks) {
+    public init(title: String, authors: [String]?, description: String?, imageLinks: ImageLinks?) {
         self.title = title
         self.authors = authors
         self.description = description

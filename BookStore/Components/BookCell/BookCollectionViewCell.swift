@@ -25,7 +25,7 @@ class BookCollectionViewCell: UICollectionViewCell {
     // MARK:- Public Methods
     
     public func configure(with book: Book) {
-        bookImageView.downloadImage(with: book.volumeInfo.imageLinks.thumbnail)
+        bookImageView.downloadImage(with: book.volumeInfo.imageLinks?.thumbnail)
         setupLayout()
     }
     
