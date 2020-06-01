@@ -85,7 +85,7 @@ class BookDetailsViewController: UIViewController {
             descriptionView.isHidden = true
         }
         
-        if let thumbnail = book?.volumeInfo.imageLinks.thumbnail {
+        if let thumbnail = book?.volumeInfo.imageLinks?.thumbnail {
             bookImageView.downloadImage(with: thumbnail)
         }
         

@@ -17,14 +17,14 @@ class BookImageView: UIImageView {
     
     // MARK:- Public Methods
     
-    public func downloadImage(with url: String) {
+    public func downloadImage(with url: String?) {
         image = nil
         
         if downloading {
             cancelTask()
         }
         
-        guard let url = URL(string: url) else {
+        guard let urlString = url, let url = URL(string: urlString) else {
             return
         }
         
