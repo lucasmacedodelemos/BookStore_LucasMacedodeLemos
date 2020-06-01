@@ -1,5 +1,5 @@
 //
-//  FavoriteBooksListViewControllerTests.swift
+//  BooksListViewControllerTests.swift
 //  BookStoreTests
 //
 //  Created by Lucas Macedo de Lemos on 31/05/20.
@@ -8,24 +8,21 @@
 
 import XCTest
 import Model
-import Manager
 @testable import BookStore
 
-class FavoriteBooksListViewControllerTests: XCTestCase {
+
+class BooksListViewControllerTests: XCTestCase {
     
     func testPopulateView() {
-        let favoriteBookManager = FavoriteBookManager()
-        let _ = favoriteBookManager.save(createBook(bookId: "teste"))
         
-        let favoriteBooks = makeFavoriteBook()
-        favoriteBooks.loadViewIfNeeded()
-        favoriteBooks.viewWillAppear(false)
+        let booksList = makeBooksList()
+        booksList.books = [createBook(bookId: "teste")]
+        booksList.loadViewIfNeeded()
+        booksList.viewWillAppear(false)
         
-        let cell = favoriteBooks.collectionView.dataSource?.collectionView(favoriteBooks.collectionView, cellForItemAt: IndexPath(item: 0, section: 0))
+        let cell = booksList.collectionView.dataSource?.collectionView(booksList.collectionView, cellForItemAt: IndexPath(item: 0, section: 0))
         
         XCTAssertNotNil(cell)
-        
-        favoriteBookManager.remove(withKey: "teste")
     }
     
     private func createBook(bookId: String) -> Book {
@@ -35,9 +32,10 @@ class FavoriteBooksListViewControllerTests: XCTestCase {
         return Book(bookId: bookId, volumeInfo: volumeInfo, saleInfo: saleInfo)
     }
     
-    private func makeFavoriteBook() -> FavoriteBooksListViewController {
+    private func makeBooksList() -> BooksListViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let favoriteBook = storyboard.instantiateViewController(identifier: "FavoriteBooksListViewController") as! FavoriteBooksListViewController
-        return favoriteBook
+        let booksList = storyboard.instantiateViewController(identifier: "BooksListViewController") as! BooksListViewController
+        return booksList
     }
+    
 }

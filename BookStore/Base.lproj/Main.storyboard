@@ -28,7 +28,7 @@
         <!--Books List View Controller-->
         <scene sceneID="ZV5-LN-seK">
             <objects>
-                <viewController id="WPR-aO-b8C" customClass="BooksListViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BooksListViewController" id="WPR-aO-b8C" customClass="BooksListViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="be0-h7-19T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -423,7 +423,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nFn-Y2-h9b"/>
+        <segue reference="vuE-Xc-BXg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book.fill" catalog="system" width="128" height="100"/>
