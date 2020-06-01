@@ -15,7 +15,7 @@ class FavoriteBooksListViewController: UIViewController {
     // MARK:- Properties
     
     lazy var favoriteBookManager = FavoriteBookManager()
-    private var books: [Book] = []
+    internal var books: [Book] = []
     private let bookCellIdentifier = "bookCell"
     private let favoriteBookDetailsSegue = "favoriteBookDetailsSegue"
 

@@ -28,7 +28,7 @@ class BooksListViewController: UIViewController {
     // MARK:- Properties
     
     lazy var booksListManager = BooksListManager(delegate: self)
-    private var books: [Book] = []
+    internal var books: [Book] = []
     private var page = 0
     private var question = ""
     private var indicatorStatus: IndicatorStatus = .finished

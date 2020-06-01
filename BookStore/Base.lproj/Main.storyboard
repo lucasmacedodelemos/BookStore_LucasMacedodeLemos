@@ -28,7 +28,7 @@
         <!--Books List View Controller-->
         <scene sceneID="ZV5-LN-seK">
             <objects>
-                <viewController id="WPR-aO-b8C" customClass="BooksListViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BooksListViewController" id="WPR-aO-b8C" customClass="BooksListViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="be0-h7-19T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
         <!--Details-->
         <scene sceneID="e2g-uu-86M">
             <objects>
-                <viewController id="NWu-HN-oyC" customClass="BookDetailsViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BookDetailsViewController" id="NWu-HN-oyC" customClass="BookDetailsViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jM7-WS-eig">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -341,7 +341,7 @@
         <!--Favorite Books List View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="FavoriteBooksListViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavoriteBooksListViewController" id="8rJ-Kc-sve" customClass="FavoriteBooksListViewController" customModule="BookStore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

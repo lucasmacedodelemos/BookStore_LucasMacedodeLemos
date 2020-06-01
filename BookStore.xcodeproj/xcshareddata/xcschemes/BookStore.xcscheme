@@ -68,6 +68,16 @@
                ReferencedContainer = "container:BookStore.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BDDF86B62481D27700E59478"
+               BuildableName = "ProviderTests.xctest"
+               BlueprintName = "ProviderTests"
+               ReferencedContainer = "container:BookStore.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
