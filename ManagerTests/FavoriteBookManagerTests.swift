@@ -17,7 +17,7 @@ class FavoriteBookManagerTests: XCTestCase {
         
         let favoriteBookManager = FavoriteBookManager()
         
-        let bookId = "12345678"
+        let bookId = "teste"
         let book = createBook(bookId: bookId)
         
         let _ = favoriteBookManager.save(book)
@@ -37,7 +37,7 @@ class FavoriteBookManagerTests: XCTestCase {
         
         let favoriteBookManager = FavoriteBookManager()
         
-        let bookId = "12345678"
+        let bookId = "teste"
         let book = createBook(bookId: bookId)
         let _ = favoriteBookManager.save(book)
         

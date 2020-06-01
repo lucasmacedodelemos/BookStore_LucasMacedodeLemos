@@ -14,7 +14,7 @@ class BookDetailsViewControllerTests: XCTestCase {
     
     func testPopulateView() {
         let bookDetails = makeBookDetails()
-        bookDetails.book = createBook(bookId: "12345678")
+        bookDetails.book = createBook(bookId: "teste")
         bookDetails.loadViewIfNeeded()
         bookDetails.viewWillAppear(false)
         
